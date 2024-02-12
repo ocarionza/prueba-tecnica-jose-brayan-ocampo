@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.nav-redes{
+  background: #0069A3;
+}
+
+.nav-redes li a{
+  color: white;
+}
+
+.form-search i {
+  color: #0069A3;
+  position: absolute;
+  right: 5%;
+  top: 15px;
+}
