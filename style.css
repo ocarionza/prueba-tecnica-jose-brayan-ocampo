@@ -86,3 +86,262 @@
   background: linear-gradient(90deg, #0069a3 ,transparent 70%);
 }
 
+.initial-text{
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
+}
+
+.history-section {
+  padding: 1.5rem 3rem 2.5rem 3rem;
+  margin: 2rem;
+  background-color: #ffffff30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-section .history-text-content{
+  background-color: #9cd04d;
+  padding: 2rem;
+  font-size: 14px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 3;
+  margin-right: -9rem;
+  float: left;
+  width: 55%;
+}
+
+.history-section .history-text-content h2{
+  color: #fff;
+  font-weight: 600;
+}
+
+.founders-section {
+  padding: 4.5rem 3rem 4.5rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4D73B;
+}
+
+.founders-section .founders-text-content{
+  background-color: #9cd04d;
+  padding: 2rem 2.5rem 0.2rem;
+  font-size: 14px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 3;
+  margin-left: -9rem;
+  float: right;
+  width: 50%;
+}
+
+.founders-section .founders-text-content h2{
+  color: #fff;
+  font-weight: 600;
+}
+
+.our-rectors{
+  text-align: center;
+  padding: 0rem 5.8rem 0rem;
+}
+
+.our-rectors h2{
+  color: #0069a3;
+  font-size: 41px;
+  font-weight: 700;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.our-rectors .cards-rectors .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.4rem;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.our-rectors .cards-rectors .card img{
+  width: 48%;
+  height: auto;
+}
+
+.our-rectors .cards-rectors .card .card-body h4{
+  padding-bottom: 2rem;
+  color: #0069A3;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.our-rectors .cards-rectors .card .card-body h5{
+  color: #0069A3;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cards-vision-mission{
+  width: 100%;
+  padding: 3rem 10.4rem 0rem;
+}
+
+.cards-vision-mission .card{
+  background-color: #f4d73b;
+  font-size: 14px;
+  border-radius: 15px;
+  height: 280px;
+}
+
+.cards-vision-mission .card img{
+  width: 10%;
+  height: auto;
+}
+
+.cards-vision-mission .card .card-logo-text{
+  padding: 2.5rem 0.5rem 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.cards-vision-mission .card .card-logo-text h4{
+  color: #0069A3;
+  font-weight: 800;
+  padding: 0 0.7rem;
+  font-size: 24px;
+}
+
+.strategic-objectives{
+  width: 100%;
+  padding: 0rem 5.8rem 4.5rem;
+  background-color: #58aaff20;
+  align-items: initial;
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.strategic-objectives h2{
+  color: #0069a3;
+  font-size: 41px;
+  font-weight: 700;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.strategic-objectives .cards-strategic-objectives{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.strategic-objectives .cards-strategic-objectives .card{
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.strategic-objectives .cards-strategic-objectives .card-header{
+  background-color: #0069a3;
+  padding: 1rem;
+  border-radius: 15px 15px 0 0;
+}
+
+.strategic-objectives .cards-strategic-objectives .card-header img{
+  width: 20%;
+  height: auto;
+}
+
+.strategic-objectives .cards-strategic-objectives .card{
+  text-align: center;
+  font-size: 14px;
+  padding: 1rem;
+  background: #fff;
+  margin: 1rem 0 0 0;
+  border-radius: 0 0 15px 15px;
+}
+
+.our-values{
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.our-values h2{
+  color: #0069a3;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-right: 2rem;
+  margin-left: 10%;
+}
+
+.our-values .cards-our-values{
+  height: 100%;
+  margin: auto;
+  grid-template-columns: repeat(3, auto);
+  text-align: center;
+}
+
+.our-values .cards-our-values .card{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-values .cards-our-values .card img{
+  width: 50%;
+  height: auto;
+}
+
+.our-values .cards-our-values .card .card-body h5{
+  color: #0069A3;
+}
+
+.hymn{
+  padding: 3rem 5rem 2rem 5rem;
+  margin: 1rem 0 2rem 0;
+  background-color: #58aaff20;
+  display: flex;
+}
+
+.hymn .hymn-col-1{
+  margin-right: 10%;
+  margin-left: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.hymn h2{
+  color: #0069a3;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.hymn .hymn-col-2 iframe{
+  border-radius: 16px;
+}
+
+footer{
+  background-color: #0069A3;
+}
+
+footer .footer-social{
+  color: #fff;
+}
+
+footer .footer-links{
+  color: #fff;
+}
+
+footer .footer-copy{
+  color: #fff;
+}
