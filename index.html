@@ -1,46 +1,138 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Sobre la UAM</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Social network menu -->
     <nav class="nav-redes navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Aspirantes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Estudiantes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Graduados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Colaboradores</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Empresas</a>
-              </li>
-            </ul>
-            <form class="d-flex ms-2 me-5 form-search" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-              <i class="bi bi-search"></i>
-            </form>
-          </div>
+      <div class="container-fluid">
+        <div class="social-networks ms-5">
+          <a class="navbar-brand" href="#"><i class="bi bi-facebook"></i></a>
+          <a class="navbar-brand" href="#"><i class="bi bi-twitter"></i></a>
+          <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i></a>
         </div>
-      </nav>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Aspirantes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Estudiantes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Graduados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Colaboradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Empresas</a>
+            </li>
+          </ul>
+          <form class="d-flex ms-2 me-5 form-search" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+            <i class="bi bi-search"></i>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main menu -->
+    <nav class="main-menu navbar navbar-expand-lg">
+      <a class="navbar-brand ms-5 me-auto" href="#">
+        <img
+          src="assets/Universidad_Autonoma_de_Manizales.png"
+          alt="Universidad Autonoma de Manizales"
+          loading="lazy"
+        />
+      </a>
+      <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMainContent"
+          aria-controls="navbarMainContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="main-menu-links collapse navbar-collapse" id="navbarMainContent">
+        <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Oferta Académica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Financiación y Becas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Investigación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Internacionalización</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Conoce la UAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Proyección</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main baner about -->
+    <div class="main-banner">
+      <img
+        src="assets/sobre_uam.jpg.jpeg"
+        class="img-fluid"
+        alt="Responsive image"
+      />
+      <div class="main-banner-content">
+        <h1 class="main-banner-content-title">Sobre la UAM</h1>
+        <span class="main-banner-content-desc">
+          Conoce todo sobre tu nuevo hogar
+        </span>
+      </div>
+    </div>
+
+    <!-- Section initial text -->
     <h1>Hello, world!</h1>
   </body>
 </html>
